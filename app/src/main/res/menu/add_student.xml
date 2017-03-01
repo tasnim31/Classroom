@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/student_all"
+        android:icon="@mipmap/ic_people_white_24dp"
+        android:title="All Student"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/msg_all"
+        android:icon="@mipmap/ic_mail_white_24dp"
+        android:title="All Messages"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/student_add"
+        android:icon="@mipmap/ic_person_add_white_24dp"
+        android:title="Add Student"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/msg_add"
+        android:icon="@mipmap/ic_mode_edit_white_24dp"
+        android:title="Write Message"
+        app:showAsAction="always" />
+
+
+</menu>

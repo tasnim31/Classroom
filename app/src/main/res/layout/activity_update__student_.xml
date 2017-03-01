@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_teacher_registration"
+    android:background="#00BFA5"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#00BFA5"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:text="Update Information"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFC400"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name :"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#FFC400"/>
+
+        <EditText
+            android:id="@+id/Sname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Institution :"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#FFC400"/>
+
+
+        <EditText
+            android:id="@+id/Sinstitute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Institute"
+            android:inputType="textNoSuggestions"
+            android:maxLines="1"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Year :"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#FFC400"/>
+
+        <EditText
+            android:id="@+id/Syear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Year"
+            android:inputType="textNoSuggestions"
+            android:maxLines="1"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Term :"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#FFC400"/>
+
+        <EditText
+            android:id="@+id/Sterm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Term"
+            android:inputType="textNoSuggestions"
+            android:maxLines="1"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Roll :"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#FFC400"/>
+
+        <EditText
+            android:id="@+id/Sroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Roll"
+            android:inputType="textNoSuggestions"
+            android:maxLines="1"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone :"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#FFC400"/>
+
+        <EditText
+            android:id="@+id/Sphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone"
+            android:inputType="textNoSuggestions"
+            android:maxLines="1"
+            android:textColor="@android:color/white" />
+
+
+        <Button
+            android:id="@+id/Supdate"
+            style="?android:textAppearanceSmall"
+            android:layout_width="269dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#FFC400"
+            android:text="Update"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>

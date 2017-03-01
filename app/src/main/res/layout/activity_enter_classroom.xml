@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_enter_classroom"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BFA5"
+    tools:context="com.example.asus.myapp.Student.Enter_classroom">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#00BFA5"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:text="Apply Course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFC400"/>
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/pic"
+            android:background="@mipmap/ic_account_box_white_24dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tname"
+            android:text="Name"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#FFC400"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:text="User name goes here"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tins"
+            android:text="Institution"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#FFC400"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/institution"
+            android:text="Institution goes here"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tCourse_no"
+            android:text="Course No"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#FFC400"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Course_no"
+            android:text="Course no goes here"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tCourse_title"
+            android:text="Course title"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#FFC400"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Course_title"
+            android:text="Course title goes here"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tphn"
+            android:text="Phone"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#FFC400"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/phn"
+            android:text="Phone goes here"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/apply"
+        android:background="#FFC400"
+        android:text="apply"/>
+
+    </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

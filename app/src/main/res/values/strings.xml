@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Classroom</string>
+    <string name="title_activity_student_register">StudentRegisterActivity</string>
+    <string name="title_activity_teacher">TeacherActivity</string>
+    <string name="title_activity_delete_">delete_Activity</string>
+    <string name="title_activity_delete__teacher_">delete_Teacher_Activity</string>
+</resources>

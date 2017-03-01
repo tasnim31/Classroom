@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/all_courses"
+        android:icon="@mipmap/ic_playlist_add_check_white_24dp"
+        android:title="All Courses"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/pending"
+        android:icon="@mipmap/ic_hourglass_empty_white_24dp"
+        android:title="Not Approved"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/add_courses"
+        android:icon="@mipmap/ic_add_box_white_24dp"
+        android:title="Add Courses"
+        app:showAsAction="always" />
+
+</menu>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_student"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#00BFA5"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:text="Student Registration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/tvsRegistration"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFC400"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name :"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#FFC400"/>
+
+        <EditText
+            android:id="@+id/SRname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Name"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Institution :"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#FFC400"/>
+
+        <EditText
+            android:id="@+id/SRinstitute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Institute"
+            android:inputType="textNoSuggestions"
+            android:maxLines="1"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Year :"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#FFC400"/>
+
+        <EditText
+            android:id="@+id/SRyear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Year"
+            android:inputType="textNoSuggestions"
+            android:maxLines="1"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Term :"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#FFC400"/>
+
+        <EditText
+            android:id="@+id/SRterm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Term"
+            android:inputType="textNoSuggestions"
+            android:maxLines="1"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Roll :"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#FFC400"/>
+
+        <EditText
+            android:id="@+id/SRroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Roll"
+            android:inputType="textNoSuggestions"
+            android:maxLines="1"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone :"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#FFC400"/>
+
+        <EditText
+            android:id="@+id/SRphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Phone Number"
+            android:inputType="textNoSuggestions"
+            android:maxLines="1"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#FFC400"/>
+
+
+        <EditText
+            android:id="@+id/SRemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password :"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#FFC400"/>
+
+        <EditText
+            android:id="@+id/SRpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:hint="Enter Password"
+            android:imeActionId="@+id/login"
+            android:imeOptions="actionUnspecified"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/SRsign_up_button"
+            style="?android:textAppearanceSmall"
+            android:layout_width="269dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#FFC400"
+            android:text="Register"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/SRprogressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+
+    </RelativeLayout>
+
+</ScrollView>

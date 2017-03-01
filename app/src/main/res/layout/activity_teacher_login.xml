@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_teacher_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.myapp.Teacher.TeacherLoginActivity">
+
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#00BFA5"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <TextView
+        android:text="Teacher Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/tvtLogin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFC400"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email :"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="#FFC400"/>
+
+    <EditText
+        android:id="@+id/TLemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password :"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="#FFC400"/>
+
+    <EditText
+        android:id="@+id/TLpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:hint="Enter Password"
+        android:imeActionId="@+id/login"
+        android:imeOptions="actionUnspecified"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/TLsign_in_button"
+        style="?android:textAppearanceSmall"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#FFC400"
+        android:text="Login"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/TLbtn_reset_password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@null"
+        android:text="Forgot Password?"
+        android:textAllCaps="false"
+        android:textColor="#FFC400" />
+
+
+
+    <Button
+        android:id="@+id/TLsign_up_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@null"
+        android:text="Don't have an Account? Register!"
+        android:textAllCaps="false"
+        android:textColor="#FFC400"
+        android:textSize="15dp" />
+
+</LinearLayout>
+
+<ProgressBar
+    android:id="@+id/TLprogressBar"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:layout_gravity="center|bottom"
+    android:layout_marginBottom="20dp"
+    android:visibility="gone" />
+
+</RelativeLayout>
